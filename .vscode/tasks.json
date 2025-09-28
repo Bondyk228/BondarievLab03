@@ -6,16 +6,17 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g",
-                "${workspaceFolder}/main.cpp",
+                "-g",                // отладочная информация
+                "main.cpp",         // твой исходный файл
                 "-o",
-                "${C:\\Users\\Pusdestroyer228\\projects\\BondarievLab03}/${main}.exe"
+                "main.exe"          // итоговый exe (будет в той же папке)
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": ["$gcc"]
+            "problemMatcher": ["$gcc"],
+            "detail": "Компиляция C++ через MinGW-w64"
         }
     ]
 }
