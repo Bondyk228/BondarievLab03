@@ -1,6 +1,6 @@
 #include <iostream>   
 using namespace std;  
-
+    
 int main() {
     int n;                  
     long long result = 1; //змінна для щбередення результату 
